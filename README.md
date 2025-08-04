@@ -65,7 +65,7 @@ Todos os códigos-fonte estão disponíveis neste repositório para consulta, mo
    ```bash
    java -XX:StartFlightRecording=filename=recording.jfr,dumponexit=true -cp out MainTeste
    ```
-- Ou utilizar os comando de terminal para analisar o arquivo recordin.jfr disbonibilizado na pasta out
+- Ou utilizar os comando de terminal para analisar o arquivo recording.jfr disbonibilizado na pasta out
   ```bash
   jfr print recording.jfr
   ```
